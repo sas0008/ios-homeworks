@@ -15,7 +15,16 @@ class ProfileViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBOutlet weak var img: UIImageView!
+    
+    @IBOutlet weak var lableName: UILabel!
+    
+    @IBOutlet weak var lableBirthday: UILabel!
+    
+    @IBOutlet weak var lableSity: UILabel!
+    
+    @IBOutlet weak var text: UITextView!
+    
     /*
     // MARK: - Navigation
 

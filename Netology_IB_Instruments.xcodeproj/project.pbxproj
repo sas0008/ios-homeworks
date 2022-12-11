@@ -13,6 +13,11 @@
 		E26825842944921600613574 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E26825822944921600613574 /* Main.storyboard */; };
 		E26825862944921800613574 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E26825852944921800613574 /* Assets.xcassets */; };
 		E26825892944921800613574 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E26825872944921800613574 /* LaunchScreen.storyboard */; };
+		E26825932944926200613574 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26825922944926200613574 /* ProfileView.swift */; };
+		E26825952944927A00613574 /* ProfileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E26825942944927A00613574 /* ProfileView.xib */; };
+		E268259729449A0700613574 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E268259629449A0700613574 /* Profile.storyboard */; };
+		E268259929449A5500613574 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E268259829449A5500613574 /* ProfileViewController.swift */; };
+		E268259B2944AADF00613574 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = E268259A2944AADF00613574 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		E26825852944921800613574 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E26825882944921800613574 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E268258A2944921800613574 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E26825922944926200613574 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = SOURCE_ROOT; };
+		E26825942944927A00613574 /* ProfileView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileView.xib; sourceTree = SOURCE_ROOT; };
+		E268259629449A0700613574 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = SOURCE_ROOT; };
+		E268259829449A5500613574 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = SOURCE_ROOT; };
+		E268259A2944AADF00613574 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +73,11 @@
 				E26825852944921800613574 /* Assets.xcassets */,
 				E26825872944921800613574 /* LaunchScreen.storyboard */,
 				E268258A2944921800613574 /* Info.plist */,
+				E26825942944927A00613574 /* ProfileView.xib */,
+				E26825922944926200613574 /* ProfileView.swift */,
+				E268259629449A0700613574 /* Profile.storyboard */,
+				E268259829449A5500613574 /* ProfileViewController.swift */,
+				E268259A2944AADF00613574 /* .gitignore */,
 			);
 			path = Netology_IB_Instruments;
 			sourceTree = "<group>";
@@ -125,8 +140,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E26825952944927A00613574 /* ProfileView.xib in Resources */,
 				E26825892944921800613574 /* LaunchScreen.storyboard in Resources */,
+				E268259729449A0700613574 /* Profile.storyboard in Resources */,
 				E26825862944921800613574 /* Assets.xcassets in Resources */,
+				E268259B2944AADF00613574 /* .gitignore in Resources */,
 				E26825842944921600613574 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,7 +156,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E26825932944926200613574 /* ProfileView.swift in Sources */,
 				E26825812944921600613574 /* ViewController.swift in Sources */,
+				E268259929449A5500613574 /* ProfileViewController.swift in Sources */,
 				E268257D2944921600613574 /* AppDelegate.swift in Sources */,
 				E268257F2944921600613574 /* SceneDelegate.swift in Sources */,
 			);
